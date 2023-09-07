@@ -1,11 +1,7 @@
 #include <stdio.h>
 /**
- * main: Entry point
- *
- * Description: printing para from task of alx in function
- *
+ * main - Entry point
  * Return: Always 0 (Success)
- *
  */
 int main(void)
 {
