@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	char first = 'a'
+	char first = 'a';
 
-	for (first = 'a'; first <= "z"; first++)
+	for (first = 'a'; first <= 'z'; first++;)
 	{
-		putchar(first)
+		putchar(first);
 	}
-	putchar("\n")
+	putchar("\n");
 	return (0);
 {
