@@ -4,7 +4,9 @@
 /**
  * main - Entry point
  *
- * description: Always 0 (Success)
+ * Description: if statement in range of number 
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
