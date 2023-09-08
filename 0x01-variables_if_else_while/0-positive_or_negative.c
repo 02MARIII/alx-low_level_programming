@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: if statement in range of number 
+ * Description: if statement in range of number
  *
  * Return: Always 0 (Success)
  */
