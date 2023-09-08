@@ -21,7 +21,7 @@ int main(void)
 			{
 				putchar(di1);
 				putchar(di2);
-				if (di1 + di2 != 132)
+				if (di1 + di2 != 113)
 				{
 					putchar(',');
 					putchar(' ');
