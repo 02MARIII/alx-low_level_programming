@@ -1,1 +1,1 @@
-# alx-low_level_programming
+this is readme for functions and nested loops
