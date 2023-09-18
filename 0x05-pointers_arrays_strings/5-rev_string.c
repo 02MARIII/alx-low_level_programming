@@ -17,5 +17,5 @@ void rev_string(char *s)
 		temp = s[n];
 		s[n] = s[x - n - 1];
 		s[x - n - 1] = temp;
-	}	
+	}
 }
