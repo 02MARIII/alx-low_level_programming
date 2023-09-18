@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
-  * main - program that generates random valid
-  * passwords for the prorgram 101-crackme.
+  * main - Entry point
+  * description: the description
   * Return: Always 0 (Success)
   */
 
