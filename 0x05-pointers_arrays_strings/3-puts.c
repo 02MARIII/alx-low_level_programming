@@ -1,16 +1,16 @@
 #include "main.h"
 /**
  * _puts - Entry point
- * @str: string param
- * description: the desciption
- * Return: Always 0
+ * @str: char param
+ * Return: void
  */
 void _puts(char *str)
 {
-	while (*str != '\0')
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(*str + 0);
-		*str++;
+		putchar(str[i]);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
