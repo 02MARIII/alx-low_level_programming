@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *leet - Entry point
+ * cap_string - Entry point
  * @c: char param
  * Return: c.
  */
