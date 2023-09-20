@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strcat - Entry point
+ * *_strncat - Entry point
  * @dest: char param
  * @src: char param
  * @n: int param
