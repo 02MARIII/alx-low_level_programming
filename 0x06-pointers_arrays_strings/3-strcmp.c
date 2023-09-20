@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strcmp - Entry point
- * @s1: int param
- * @s2: int param
- * Return: int .
+ * _strcmp - compare string values
+ * @s1: input value
+ * @s2: input value
+ * Return: s1 - s2.
  */
 int _strcmp(char *s1, char *s2)
 {
