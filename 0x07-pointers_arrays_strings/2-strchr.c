@@ -3,7 +3,7 @@
  * _strchr - Entry point
  * @s: pointer of c
  * @c: param of char
- * Return: char
+ * Return: Always 0 (Success)
  */
 char *_strchr(char *s, char c)
 {
@@ -15,5 +15,5 @@ char *_strchr(char *s, char c)
 	}
 	s++;
 	}
-	return (s);
+	return (0);
 }
