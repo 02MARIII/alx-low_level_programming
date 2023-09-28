@@ -21,7 +21,7 @@ int is_prime_number(int n)
 }
 
 /**
- * is_divisible - Entry point
+ * divise - Entry point
  * @n: param of int
  * @div: param of div
  * Return: 1 if n is divisible or 0 if n is not
