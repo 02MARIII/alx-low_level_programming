@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
 /**
  * _sqrt - Entry point
  * @n: param of n
- * @prev: param of prev
+ * @start: param of prev
  * Return: int
  */
 
