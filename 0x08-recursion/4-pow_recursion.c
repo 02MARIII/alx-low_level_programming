@@ -3,7 +3,7 @@
  * _pow_recursion - Entry point
  * @x: param of int
  * @y: param if int
- * return: int
+ * Return: the value of x raised to the power of y
  */
 int _pow_recursion(int x, int y)
 {
