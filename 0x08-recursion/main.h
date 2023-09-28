@@ -11,7 +11,4 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int omar_needs_this(int n, int s);
 int is_prime_number(int n);
-int omar_prime_fun(int n, int s);
-int is_palindrome(char *s);
-int omar_palindrome(char *s, int i);
 #endif
