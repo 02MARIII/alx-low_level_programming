@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 /**
  * main - Entry point
  * @argc: index of argv
@@ -10,15 +9,18 @@ int main(int argc, char *argv[])
 {
 	int firstNum;
 	int secondNum;
+	int results;
+
 	if (argc == 3)
 	{
 		firstNum = atoi(argv[1]);
 		secondNum = atoi(argv[2]);
-		printf("%d\n", firstNum * secondNum);
+		results = firstNum * secondNum;
+		printf("%d\n", results);
 	}
 	else
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 	return (0);
