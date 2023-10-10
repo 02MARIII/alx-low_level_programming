@@ -1,0 +1,6 @@
+{
+	"files.associations": {
+		"dog.h": "c",
+		"stdio.h": "c"
+	}
+}
