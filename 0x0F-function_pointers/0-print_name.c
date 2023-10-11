@@ -7,11 +7,7 @@
 */
 void print_name(char *name, void (*f)(char *))
 {
-	/* void (*pointer_f)(char *); */
-
-	if (!name && !f)
+	if (name == NULL || f == NULL)
 		return;
 	f(name);
-	/* pointer_f = f; */
-	/* (*pointer_f)(name);*/
 }
