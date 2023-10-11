@@ -11,7 +11,7 @@ void print_name(char *name, void (*f)(char *))
 
 	if (f == NULL && name == NULL)
 		return;
-	(*f)(name);
+	(f)(name);
 	/* pointer_f = f; */
 	/* (*pointer_f)(name);*/
 }
