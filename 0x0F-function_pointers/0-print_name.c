@@ -2,10 +2,12 @@
 #include <stdlib.h>
 /**
  * print_name - Entry point
- * @name: param for char
- * @f: function pointer
+ * @name: param of char
+ * @f: function pounter
+ * Description: the description
+ *
  * Return: void
-*/
+ */
 void print_name(char *name, void (*f)(char *))
 {
 	if (name && f)
