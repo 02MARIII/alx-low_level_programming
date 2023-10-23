@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
- * print_list - Entry point
- * @h: const param for list_t
+ * print_listint - Entry point
+ * @h: const param for listint_t
  * Return: size_t
 */
 size_t print_listint(const listint_t *h)
