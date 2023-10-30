@@ -18,10 +18,10 @@ void exitWithError(int exitCode, const char *errorMessage, const char *arg)
 */
 int openOutputFile(const char *file_to)
 {
-	int fd_to;
+	int fT;
 
-	fd_to = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, 0);
-	return (fd_to);
+	fT = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR | S_IRGRP);
+	return (fT);
 }
 /**
  * openAndCopyFile - Entry point
