@@ -3,7 +3,7 @@
 /**
  * dlistint_len - Entry point
  * @h: const pointer param for dlistint_t
- * Return: Number of nodes.
+ * Return: size_t
  */
 size_t dlistint_len(const dlistint_t *h)
 {
