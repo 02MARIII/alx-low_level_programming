@@ -16,7 +16,7 @@ dlistint_t *find_dlistint_at_index(dlistint_t *head, unsigned int index)
 	for (i = 0; i < index && head != NULL; i++)
 		head = head->next;
 
-	return head;
+	return (head);
 }
 /**
  * delete_dnodeint_at_index - Entry point
@@ -33,11 +33,9 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		current = current->prev;
 		*head = (*head)->prev;
 	}
-
 	if (current != NULL && index != 0)
 	{
 		current = find_dlistint_at_index(current, index);
-
 		if (current != NULL)
 		{
 			previous = current->prev;
@@ -47,18 +45,14 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 
 			if (current->next != NULL)
 				current->next->prev = previous;
-
 			free(current);
 			return (1);
 		}
-
 		return (-1);
 	}
-
 	if (current != NULL && index == 0)
 	{
 		previous = current->next;
-
 		if (previous == NULL)
 			*head = NULL;
 		else
@@ -67,9 +61,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 			free(current);
 			*head = previous;
 		}
-
 		return (1);
 	}
-
 	return (-1);
 }
