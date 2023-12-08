@@ -19,13 +19,13 @@ dlistint_t *find_dlistint_at_index(dlistint_t *h, unsigned int index)
 	return (h);
 }
 /**
- * insert_node_at_index - Entry point
+ * insert_dnodeint_at_index - Entry point
  * @h: double pointer param for dlistint_t
  * @idx: unsigned param for int
  * @n: param for int
  * Return: dlistint_t
  */
-dlistint_t *insert_node_at_index(dlistint_t **h, unsigned int idx, int n)
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new_node, *current = *h;
 
